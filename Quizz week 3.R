@@ -57,3 +57,4 @@ aveGDP <- Merge %>% group_by(`Income Group`) %>%
 Merge$RankGroups <- cut(Merge$Rank, breaks = 5)
 vs <- table(Merge$RankGroups, Merge$`Income Group`)
 vs
+
